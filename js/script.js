@@ -83,4 +83,8 @@ for (let i = 1; i <= 100; i++) {
     // Aggiungo la variabile "bgClass" al div di ogni singolo item per impostare il colore di background
     boxElem.classList.add(bgClass);
 
+    //const boxElem = `<div class="box ${bgClass}"> ${i}</div>`
+   // console.log(boxElem);
+    //rowElem.innerHTML += boxElem
+
 }

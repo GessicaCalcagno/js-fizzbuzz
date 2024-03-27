@@ -19,6 +19,6 @@
 
  - [x] Aggiungere un elemento ad html con numero o stringa da mostrare;
  - [x] Bonus: inserire lo stile in base al:
- -se Fizz= box verdeacqua; 
- -se Buzz= box giallo;
- -se FizBuzz= box rosso.
+ - se Fizz= box verdeacqua; 
+ - se Buzz= box giallo;
+ - se FizBuzz= box rosso.
