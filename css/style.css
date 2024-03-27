@@ -5,6 +5,63 @@
     box-sizing: border-box;
 }
 
-/************************************************
-        --------
- ************************************************/
+/*BODY*/
+
+body {
+    background-color: #083B4C;
+    font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif;
+}
+
+/*TITLE*/
+h1 {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+/*CONTAINER*/
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*BOXES*/
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*FIZZ numeri multipli di 3*/
+.fizz {
+    background-color: #0BD6A1;
+}
+
+/*BUZZ numeri multipli di 5*/
+.buzz {
+    background-color: #FFD166;
+}
+
+/*FIZZ-BUZZ numeri multipli di 3 e 5*/
+.fizz-buzz {
+    background-color: #c9536e;
+    font-size: 1.2rem;
+}
+
+/*Numeri che non soddisfano le altre condizioni*/
+.number {
+    background-color: #1389B2;
+}
