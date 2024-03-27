@@ -11,13 +11,14 @@
  Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 
  ##### SVOLGIMENTO
- [] Creo un ciclo 'for' per avere i numeri da 1 a 100;
- [] Creo le variabili ed i calcoli nel 'if':
+ [x] Creo un ciclo 'for' per avere i numeri da 1 a 100;
+ [x] Creo le variabili ed i calcoli nel 'if':
+ FizzBuzz = (i % 3 === 0) && (i % 5 === 0) --> da inserire prima di tutte le altre condizioni al contrario non la vedremmo in pagina
  Fizz= (i %3 === 0)
  Buzz= (i %5 === 0 )
- FizzBuzz = (i % 3 === 0) && (i % 5 === 0)
- [] Aggiungere un elemento ad html con numero o stringa da mostrare;
- [] Bonus: inserire lo stile in base al:
+
+ [x] Aggiungere un elemento ad html con numero o stringa da mostrare;
+ [x] Bonus: inserire lo stile in base al:
  -se Fizz= box verdeacqua; 
  -se Buzz= box giallo;
--se FizBuzz= box rosso.
+ -se FizBuzz= box rosso.
