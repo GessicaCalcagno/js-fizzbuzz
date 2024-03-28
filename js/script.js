@@ -6,7 +6,7 @@
 "use strict";
 //**************************************************** */
 
-//La inserisco fuori dal ciclo for dopo i vari controlli/test console
+//La inserisco fuori dal ciclo for dopo i vari controlli/test console perchè è inutile che la variabile sia scritta 100 volte
 //Prendo la riga creata in HTML tramite classe '.row'
 const rowElem = document.querySelector(".row");
 //test
